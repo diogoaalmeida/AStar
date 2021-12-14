@@ -1,0 +1,70 @@
+Caso[1] 0 2 9 13 3 1 5 14 4 7 6 10 8 11 12 15
+H'[5] Movements[18] Nodes[3082] Memory[20mb] Time[38ms] TimeFormatted[0d:0h:0m:0s:38ms]
+H'[4] Movements[18] Nodes[4880] Memory[33mb] Time[102ms] TimeFormatted[0d:0h:0m:0s:102ms]
+H'[3] Movements[18] Nodes[3084] Memory[92mb] Time[33ms] TimeFormatted[0d:0h:0m:0s:33ms]
+H'[2] Movements[18] Nodes[94914] Memory[128mb] Time[168180ms] TimeFormatted[0d:0h:2m:48s:180ms]
+H'[1] Movements[18] Nodes[5879] Memory[30mb] Time[296ms] TimeFormatted[0d:0h:0m:0s:296ms]
+
+Caso[2] 3 2 1 9 0 5 6 13 4 7 10 14 8 12 15 11
+H'[5] Movements[19] Nodes[643] Memory[5mb] Time[3ms] TimeFormatted[0d:0h:0m:0s:3ms]
+H'[4] Movements[19] Nodes[1226] Memory[8mb] Time[10ms] TimeFormatted[0d:0h:0m:0s:10ms]
+H'[3] Movements[19] Nodes[643] Memory[186mb] Time[3ms] TimeFormatted[0d:0h:0m:0s:3ms]
+H'[2] Movements[19] Nodes[223732] Memory[217mb] Time[938128ms] TimeFormatted[0d:0h:15m:38s:128ms]
+H'[1] Movements[19] Nodes[1669] Memory[8mb] Time[16ms] TimeFormatted[0d:0h:0m:0s:16ms]
+
+Caso[3] 2 1 9 13 3 5 10 14 4 6 11 15 7 8 12 0
+H'[5] Movements[12] Nodes[685] Memory[4mb] Time[3ms] TimeFormatted[0d:0h:0m:0s:3ms]
+H'[4] Movements[12] Nodes[543] Memory[4mb] Time[2ms] TimeFormatted[0d:0h:0m:0s:2ms]
+H'[3] Movements[12] Nodes[685] Memory[5mb] Time[2ms] TimeFormatted[0d:0h:0m:0s:2ms]
+H'[2] Movements[12] Nodes[2765] Memory[4mb] Time[23ms] TimeFormatted[0d:0h:0m:0s:23ms]
+H'[1] Movements[12] Nodes[37] Memory[1mb] Time[0ms] TimeFormatted[0d:0h:0m:0s:0ms]
+
+Caso[4] 9 13 10 0 5 2 6 14 1 7 11 15 3 4 8 12
+H'[5] Movements[21] Nodes[19764] Memory[41mb] Time[1168ms] TimeFormatted[0d:0h:0m:1s:168ms]
+H'[4] Movements[21] Nodes[20856] Memory[56mb] Time[1340ms] TimeFormatted[0d:0h:0m:1s:340ms]
+H'[3] Movements[21] Nodes[26978] Memory[204mb] Time[2418ms] TimeFormatted[0d:0h:0m:2s:418ms]
+H'[2] Movements[21] Nodes[211568] Memory[229mb] Time[591243ms] TimeFormatted[0d:0h:9m:51s:243ms]
+H'[1] Movements[21] Nodes[52881] Memory[52mb] Time[21375ms] TimeFormatted[0d:0h:0m:21s:375ms]
+
+// verificado que o h'5 é o melhor tendo em vista que os outros passou
+#######################################################################################################################
+Verificando as versões com h'5
+Caso[1] 0 2 9 13 3 1 5 14 4 7 6 10 8 11 12 15
+Version[I] H'[5] Movements[18] Nodes[3082] Memory[20mb] Time[118ms] TimeFormatted[0d:0h:0m:0s:118ms]
+Version[II] H'[5] Movements[18] Nodes[2179] Memory[17mb] Time[105ms] TimeFormatted[0d:0h:0m:0s:105ms]
+
+Caso[2] 3 2 1 9 0 5 6 13 4 7 10 14 8 12 15 11
+Version[I] H'[5] Movements[19] Nodes[643] Memory[4mb] Time[4ms] TimeFormatted[0d:0h:0m:0s:4ms]
+Version[II] H'[5] Movements[19] Nodes[570] Memory[4mb] Time[8ms] TimeFormatted[0d:0h:0m:0s:8ms]
+
+Caso[3] 2 1 9 13 3 5 10 14 4 6 11 15 7 8 12 0
+Version[I] H'[5] Movements[12] Nodes[685] Memory[5mb] Time[3ms] TimeFormatted[0d:0h:0m:0s:3ms]
+Version[II] H'[5] Movements[12] Nodes[564] Memory[4mb] Time[5ms] TimeFormatted[0d:0h:0m:0s:5ms]
+
+Caso[4] 9 13 10 0 5 2 6 14 1 7 11 15 3 4 8 12
+Version[I] H'[5] Movements[21] Nodes[19764] Memory[61mb] Time[1403ms] TimeFormatted[0d:0h:0m:1s:403ms]
+Version[II] H'[5] Movements[21] Nodes[13860] Memory[34mb] Time[4147ms] TimeFormatted[0d:0h:0m:4s:147ms]
+
+Caso[5] 4 3 2 1 8 10 11 5 12 6 0 9 15 7 14 13
+Version[I] H'[5] Movements[38] Nodes[3373] Memory[18mb] Time[39ms] TimeFormatted[0d:0h:0m:0s:39ms]
+Version[II] H'[5] Movements[38] Nodes[2742] Memory[18mb] Time[178ms] TimeFormatted[0d:0h:0m:0s:178ms]
+
+Caso[6] 9 13 14 15 5 6 10 8 0 1 11 12 7 2 3 4
+Version[I] H'[5] Movements[32] Nodes[24462] Memory[19mb] Time[2175ms] TimeFormatted[0d:0h:0m:2s:175ms]
+Version[II] H'[5] Movements[32] Nodes[19105] Memory[60mb] Time[10037ms] TimeFormatted[0d:0h:0m:10s:37ms]
+
+Caso[7] 10 6 2 1 7 13 9 5 0 15 14 12 11 3 4 8
+Version[I] H'[5] Movements[38] Nodes[307377] Memory[244mb] Time[997985ms] TimeFormatted[0d:0h:16m:37s:985ms]
+Version[II] H'[5] Movements[38] Nodes[212257] Memory[165mb] Time[2043148ms] TimeFormatted[0d:0h:34m:3s:148ms]
+
+Caso[8] 6 2 1 5 4 10 13 9 0 8 3 7 12 15 11 14
+Version[I] H'[5] Movements[34] Nodes[60082] Memory[47mb] Time[24599ms] TimeFormatted[0d:0h:0m:24s:599ms]
+Version[II] H'[5] Movements[34] Nodes[45221] Memory[50mb] Time[68667ms] TimeFormatted[0d:0h:1m:8s:667ms]
+
+Caso[9] 10 13 15 0 5 9 14 11 1 2 6 7 3 4 8 12
+Version[I] H'[5] Movements[27] Nodes[2560] Memory[15mb] Time[26ms] TimeFormatted[0d:0h:0m:0s:26ms]
+Version[II] H'[5] Movements[27] Nodes[2330] Memory[15mb] Time[153ms] TimeFormatted[0d:0h:0m:0s:153ms]
+
+Caso[10] 5 9 13 14 1 6 7 10 11 15 12 0 8 2 3 4
+Version[I] H'[5] Movements[29] Nodes[243878] Memory[188mb] Time[595705ms] TimeFormatted[0d:0h:9m:55s:705ms]
+Version[II] H'[5] Movements[29] Nodes[179718] Memory[142mb] Time[1373027ms] TimeFormatted[0d:0h:22m:53s:27ms]
